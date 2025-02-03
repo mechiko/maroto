@@ -12,7 +12,7 @@ import (
 	"github.com/johnfercher/maroto/v2/pkg/consts/barcode"
 
 	libBarcode "github.com/boombuler/barcode"
-	"github.com/boombuler/barcode/datamatrix"
+	"github.com/mechiko/barcode/datamatrix"
 	"github.com/boombuler/barcode/qr"
 
 	"github.com/johnfercher/maroto/v2/pkg/consts/extension"
