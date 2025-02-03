@@ -7,16 +7,16 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/johnfercher/maroto/v2/pkg/consts/barcode"
+	"github.com/mechiko/maroto/v2/pkg/consts/barcode"
 
-	"github.com/johnfercher/maroto/v2/internal/cache"
-	"github.com/johnfercher/maroto/v2/internal/merror"
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf/cellwriter"
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf/gofpdfwrapper"
-	"github.com/johnfercher/maroto/v2/pkg/consts/extension"
-	"github.com/johnfercher/maroto/v2/pkg/core"
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
-	"github.com/johnfercher/maroto/v2/pkg/props"
+	"github.com/mechiko/maroto/v2/internal/cache"
+	"github.com/mechiko/maroto/v2/internal/merror"
+	"github.com/mechiko/maroto/v2/internal/providers/gofpdf/cellwriter"
+	"github.com/mechiko/maroto/v2/internal/providers/gofpdf/gofpdfwrapper"
+	"github.com/mechiko/maroto/v2/pkg/consts/extension"
+	"github.com/mechiko/maroto/v2/pkg/core"
+	"github.com/mechiko/maroto/v2/pkg/core/entity"
+	"github.com/mechiko/maroto/v2/pkg/props"
 )
 
 type provider struct {

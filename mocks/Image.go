@@ -3,14 +3,14 @@
 package mocks
 
 import (
-	extension "github.com/johnfercher/maroto/v2/pkg/consts/extension"
-	entity "github.com/johnfercher/maroto/v2/pkg/core/entity"
+	extension "github.com/mechiko/maroto/v2/pkg/consts/extension"
+	entity "github.com/mechiko/maroto/v2/pkg/core/entity"
 
 	gofpdf "github.com/jung-kurt/gofpdf"
 
 	mock "github.com/stretchr/testify/mock"
 
-	props "github.com/johnfercher/maroto/v2/pkg/props"
+	props "github.com/mechiko/maroto/v2/pkg/props"
 
 	uuid "github.com/google/uuid"
 )
