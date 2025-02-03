@@ -3,11 +3,9 @@ module github.com/mechiko/maroto/v2
 go 1.23.5
 
 require (
-	github.com/boombuler/barcode v1.0.2
 	github.com/f-amaral/go-async v0.3.0
 	github.com/google/uuid v1.6.0
 	github.com/johnfercher/go-tree v1.1.0
-	github.com/johnfercher/maroto/v2 v2.2.2
 	github.com/jung-kurt/gofpdf v1.16.2
 	github.com/mechiko/barcode v1.0.0
 	github.com/pdfcpu/pdfcpu v0.9.1

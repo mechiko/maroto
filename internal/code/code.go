@@ -7,13 +7,13 @@ import (
 	"image/draw"
 	"image/png"
 
-	"github.com/boombuler/barcode/code128"
-	"github.com/boombuler/barcode/ean"
+	"github.com/mechiko/barcode/code128"
+	"github.com/mechiko/barcode/ean"
 	"github.com/mechiko/maroto/v2/pkg/consts/barcode"
 
-	libBarcode "github.com/boombuler/barcode"
+	libBarcode "github.com/mechiko/barcode"
 	"github.com/mechiko/barcode/datamatrix"
-	"github.com/boombuler/barcode/qr"
+	"github.com/mechiko/barcode/qr"
 
 	"github.com/mechiko/maroto/v2/pkg/consts/extension"
 	"github.com/mechiko/maroto/v2/pkg/core/entity"
