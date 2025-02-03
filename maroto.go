@@ -4,23 +4,23 @@ import (
 	"errors"
 
 	"github.com/f-amaral/go-async/pool"
-	"github.com/johnfercher/maroto/v2/pkg/consts/generation"
+	"github.com/mechiko/maroto/v2/pkg/consts/generation"
 
-	"github.com/johnfercher/maroto/v2/internal/cache"
+	"github.com/mechiko/maroto/v2/internal/cache"
 
-	"github.com/johnfercher/maroto/v2/internal/providers/gofpdf"
+	"github.com/mechiko/maroto/v2/internal/providers/gofpdf"
 
-	"github.com/johnfercher/maroto/v2/pkg/merge"
+	"github.com/mechiko/maroto/v2/pkg/merge"
 
-	"github.com/johnfercher/maroto/v2/pkg/core/entity"
+	"github.com/mechiko/maroto/v2/pkg/core/entity"
 
 	"github.com/johnfercher/go-tree/node"
 
-	"github.com/johnfercher/maroto/v2/pkg/components/col"
-	"github.com/johnfercher/maroto/v2/pkg/components/page"
-	"github.com/johnfercher/maroto/v2/pkg/components/row"
-	"github.com/johnfercher/maroto/v2/pkg/config"
-	"github.com/johnfercher/maroto/v2/pkg/core"
+	"github.com/mechiko/maroto/v2/pkg/components/col"
+	"github.com/mechiko/maroto/v2/pkg/components/page"
+	"github.com/mechiko/maroto/v2/pkg/components/row"
+	"github.com/mechiko/maroto/v2/pkg/config"
+	"github.com/mechiko/maroto/v2/pkg/core"
 )
 
 type Maroto struct {
